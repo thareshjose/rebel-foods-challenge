@@ -8,6 +8,7 @@
   padding: 15px;
   cursor: pointer;
   box-shadow: 0px 2px 5px 1px rgb(235, 235, 235);
+  overflow: hidden;
 
   &:hover {
     background-color: rgba(253, 250, 228, 0.7);
@@ -29,7 +30,7 @@
   }
 
   &__title {
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -37,14 +38,14 @@
   }
 
   &__category {
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 1.4rem;
     text-transform: capitalize;
     color: rgb(116, 116, 116);
   }
 
   &__abv {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 5px;
     font-size: 1.2rem;
     font-weight: 600;
@@ -52,9 +53,9 @@
   }
 
   &__ounces {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: rgb(133, 130, 130);
   }
@@ -62,7 +63,7 @@
 
 @media only screen and (max-width: 425px) {
   .card {
-    height: 190px;
+    height: 200px;
   }
 }
 
